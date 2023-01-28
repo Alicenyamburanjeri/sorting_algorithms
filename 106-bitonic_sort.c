@@ -27,6 +27,7 @@ void bitonic_compare(char up, int *array, size_t size)
 	}
 }
 
+<<<<<<< HEAD
 /**
  * bitonic_merge - recursive function that merges two sub-arrays
  * @up: direction of sorting
@@ -81,3 +82,9 @@ void bitonic_sort(int *array, size_t size)
 		return;
 	bit_sort(1, array, size, size);
 }
+=======
+	/* recursion merge */
+	merge(array, flag, half);
+	merge((array + half), flag, half);
+}
+>>>>>>> d9a27803d24a4f3191e9466cc0126681f9f71f55
