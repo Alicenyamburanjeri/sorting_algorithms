@@ -1,9 +1,10 @@
-gi#include "sort.h"
+#include "sort.h"
 #include <stdio.h>
 
 /**
  * bitonic_compare - sort the values in a sub-array with respect to
  * the Bitonic sort algorithm
+ * 
  * @up: direction of sorting
  * @array: sub-array to sort
  * @size: size of the sub-array
